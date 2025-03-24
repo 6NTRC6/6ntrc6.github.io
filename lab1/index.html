@@ -13,10 +13,10 @@
 <body>
     <header class="site-header">
         <div class="container header-container">
-            <h1 class="site-title"><a href="index.html">Космічний Симулятор</a></h1>
+            <h1 class="site-title"><a href="index.html" class="nav-link active">Космічний Симулятор</a></h1>
             <nav class="site-nav">
                 <ul class="nav-list">
-                    <li><a href="index.html" class="nav-link">Головна</a></li>
+                    <li><a href="index.html" class="nav-link active">Головна</a></li>
                     <li><a href="missions.html" class="nav-link">Експедиції</a></li>
                     <li><a href="journeys.html" class="nav-link">Мої подорожі</a></li>
                 </ul>
@@ -71,12 +71,60 @@
                                      <span class="status-value">9 / 20</span>
                                 </div>
                             </div>
-
-                                
-
                         </div>
                     </div>
                 </article>
+            </section>
+
+            <section id="control-panel" class="control-panel-section">
+                <h2 class="section-title">Панель керування</h2>
+                <div class="control-panel">
+                     <details class="control-group">
+                        <summary class="control-group-title"><i class="fas fa-rocket control-group-icon"></i> Системи запуску</summary>
+                        <div class="control-row">
+                            <div class="control-item">
+                                <i class="fas fa-toggle-on control-icon"></i>
+                                <span class="control-label">Головний двигун</span>
+                            </div>
+                            <div class="control-item">
+                                <i class="fas fa-toggle-off control-icon"></i>
+                                <span class="control-label">Допоміжні двигуни</span>
+                            </div>
+                             <div class="control-item">
+                                <i class="fas fa-rotate control-icon"></i>
+                                <span class="control-label">Перезапуск двигунів</span>
+                            </div>
+                        </div>
+                    </details>
+
+                     <details class="control-group">
+                        <summary class="control-group-title"><i class="fas fa-user-shield control-group-icon"></i> Системи захисту</summary>
+                         <div class="control-row">
+                            <div class="control-item">
+                                 <i class="fas fa-shield control-icon"></i>
+                                <span class="control-label">Підвищити ступінь захисту</span>
+                            </div>
+                            <div class="control-item">
+                                <i class="fas fa-shield-halved control-icon"></i>
+                                <span class="control-label">Знизити ступінь захисту</span>
+                            </div>
+                        </div>
+                    </details>
+
+                    <details class="control-group">
+                        <summary class="control-group-title"><i class="fas fa-satellite-dish control-group-icon"></i> Комунікації</summary>
+                        <div class="control-row">
+                            <div class="control-item">
+                                <i class="fas fa-phone control-icon"></i>
+                                <span class="control-label">Зв'язок з базою</span>
+                            </div>
+                            <div class="control-item">
+                                <i class="fas fa-satellite control-icon"></i>
+                                <span class="control-label">Зв'язок з іншими кораблями</span>
+                            </div>
+                        </div>
+                    </details>
+                </div>
             </section>
         </div>
     </main>
@@ -87,7 +135,7 @@
             <p class="footer-copyright">© 2025 Космічний Симулятор. Всі права захищені.</p>
             <ul class="footer-links">
                 <li class="footer-item"><a href="mailto:spacesimulator@example.com" class="footer-link">spacesimulator@example.com</a></li>
-                
+
             </ul>
         </div>
     </footer>
